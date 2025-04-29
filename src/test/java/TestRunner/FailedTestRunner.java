@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
         features = "@target/failedRerun.txt",
         glue = "StepDefinitions",
-        tags = "@test2",
+        tags = "@test1",
         plugin = {
                 "pretty",
         }

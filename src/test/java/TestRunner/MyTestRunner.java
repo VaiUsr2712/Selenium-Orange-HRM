@@ -1,8 +1,6 @@
 package TestRunner;
 
 import Utilities.Retry;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.FeatureWrapper;
@@ -14,7 +12,7 @@ import org.testng.annotations.Test;
 @CucumberOptions(
         features = "C:\\Users\\ragha\\SeleniumOrngHrm\\Selenium-Orange-HRM\\src\\test\\resources\\Features\\PIM.feature",
         glue = "StepDefinitions",
-        tags = "@test2",
+        tags = "@test1",
         plugin = {
                 "pretty","html:target/cucumber-reports",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",

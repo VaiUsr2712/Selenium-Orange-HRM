@@ -43,5 +43,13 @@ public class Screenshots {
         } catch (IOException e) {
             System.out.println("Error while saving screenshot: " + e.getMessage());
         }
+
+
+
+    }
+
+    public static  void issue(){
+
+        System.out.println("issue");
     }
 }

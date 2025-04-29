@@ -2,10 +2,9 @@ package ReusableMethods;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Properties;
 
-import static java.lang.System.out;
+
 
 public class PropertyReader {
 
